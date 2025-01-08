@@ -40,7 +40,7 @@ export const NavBar = () => {
             className="px-4 cursor-pointer capitalize font-medium 
             text-grey-500 hover:scale-105 duration-200"
           >
-            <Link onClick={()=> setNav(!nav)} to={link} smooth duration={500}>
+            <Link to={link} smooth duration={500}>
               {link}
             </Link>
           </li>
